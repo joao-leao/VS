@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     padding: 60px;
-    background-image: url('./assets/imgs/background-home.jpg');
+    background-image: url('/assets/imgs/background-home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     Background-position: center;
