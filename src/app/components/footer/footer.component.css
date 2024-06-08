@@ -1,0 +1,87 @@
+footer{
+    width: 100vw;
+    padding: 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #222;
+    color: white;
+}
+
+.footer-containers{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 30vw;
+    padding: 0 15px;
+}
+
+.column-1 > img{
+    width: 173px;
+    height: 79px;
+    margin-bottom: 20px;
+}
+
+.column-1 > address{
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.column-1 > a{
+    font-size: 17px;
+    color: #0095ec;
+    text-decoration: none;
+}
+
+.column-2 > h4{
+    font-size: 25px;
+    color: #0095ec;
+    margin-bottom: 20px;
+}
+
+.column-2 > p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.list-contact{
+    list-style: none;
+    word-break: break-word; 
+}
+
+.column-3 > h4{
+    font-size: 25px;
+    color: #0095ec;
+    margin-bottom: 20px;
+}
+
+.column-3 > p{
+    font-size: 17px;
+}
+
+.list-social{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list-social > li{
+    padding: 5px 19px;
+    margin: 5px 5px 0 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #444749;
+}
+.list-social > li > a{
+    width: 27px;
+    height: 27px;
+}
+
+.social-icon{
+    width: 100%;
+    height: 100%;
+    fill: white;
+}
